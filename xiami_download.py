@@ -9,7 +9,7 @@ Created on 2016年4月19日
 import urllib.request,urllib.parse
 import re,os
    
-def anlasys(url,dirpath):
+def analysis(url,dirpath):
     if not os.path.isdir(dirpath):
       os.makedirs(dirpath)
     url=str(url)
@@ -85,4 +85,4 @@ def anlasys(url,dirpath):
             pass
 
     
-anlasys(3561993,"D:/xiami_music")
+analysis(3561993,"D:/xiami_music")
